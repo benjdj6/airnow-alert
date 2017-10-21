@@ -12,6 +12,8 @@ Notifies user via email or text message about AQI if >150 (aka "Unhealthy").
 
 * Enable account creation
 
+* Create user model
+
 * Add email alerts
 
 * Add text alerts
