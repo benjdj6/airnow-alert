@@ -19,3 +19,5 @@ Notifies user via email or text message about AQI if >150 (aka "Unhealthy").
 * Add text alerts
 
 * Optimize API call timing to avoid getting stale data
+
+* Connect MongoDB
