@@ -9,6 +9,20 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/aqi/:zip', function(req, res, next) {
+  var options = {
+    url: 'http://www.airnowapi.org/aq/observation/zipCode/current/',
+    qs: {
+      'format': 'application/json',
+      'zipCode': req.params.zip,
+      'distance': 25,
+      'API_KEY': process.env.SECRET
+    }
+  };
+
+   request(options, function(err, res, body) {
+    console.log(body);
+   });
+
   res.sendStatus(204);
 });
 
