@@ -19,11 +19,12 @@ router.get('/aqi/:zip', function(req, res, next) {
     }
   };
 
-   request(options, function(err, res, body) {
-    console.log(body);
+   request(options, function(err, response, body) {
+    if(err) {
+      res.json(response.statusCode);
+    }
+    res.json(body);
    });
-
-  res.sendStatus(204);
 });
 
 module.exports = router;
