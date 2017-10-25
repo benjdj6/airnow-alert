@@ -21,5 +21,3 @@ Notifies user via email or text message about AQI if >150 (aka "Unhealthy").
 * Optimize API call timing to avoid getting stale data
 
 * Connect MongoDB
-
-* Add request AQI endpoint
