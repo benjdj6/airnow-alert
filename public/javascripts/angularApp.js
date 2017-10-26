@@ -6,15 +6,9 @@ app.controller('MainCtrl', [
   function($scope, $http){
 
     $scope.getAQI = function() {
-      $scope.AQI = -1;
-      return $http({
-        method: 'GET',
-        url: '/aqi/' + $scope.zip
-      }).success(function(data) {
-        if(data == 404) {
-          return alert("No Results :(");
-        }
-        console.log(data);
+      $scope.aqi = -1;
+      return $http.get('/aqi/' + $scope.zip).then(function(data) {
+        console.log(data.data);
       });
     };
     
