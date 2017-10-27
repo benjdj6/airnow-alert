@@ -18,8 +18,9 @@
     <p>Welcome to <%= title %></p>
     <div class="row">
       <label>ZIP Code</label>
-      <input type="text"/>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <input type="text" ng-model="zip"/>
+      <button type="submit" ng-click="getAQI();" class="btn btn-primary">Submit</button>
     </div>
+    {{aqi}}
   </body>
 </html>
