@@ -11,6 +11,7 @@ app.controller('MainCtrl', [
           $scope.aqi = "No data found :(";
         }
         $scope.aqi = data.data[0].AQI;
+        $scope.name = data.data[0].ParameterName;
       });
     };
     
