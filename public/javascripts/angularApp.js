@@ -6,8 +6,10 @@ app.controller('MainCtrl', [
   function($scope, $http){
 
     $scope.getAQI = function() {
-      $scope.aqi = -1;
       return $http.get('/aqi/' + $scope.zip).then(function(data) {
+        if (!data.data[0]) {
+          $scope.aqi = "No data found :(";
+        }
         $scope.aqi = data.data[1].AQI;
       });
     };
