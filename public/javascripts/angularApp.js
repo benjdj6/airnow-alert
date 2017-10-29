@@ -10,7 +10,7 @@ app.controller('MainCtrl', [
         if (!data.data[0]) {
           $scope.aqi = "No data found :(";
         }
-        $scope.aqi = data.data[1].AQI;
+        $scope.aqi = data.data[0].AQI;
       });
     };
     
