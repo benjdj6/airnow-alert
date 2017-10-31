@@ -22,8 +22,6 @@ Notifies user via email or text message about AQI if >150 (aka "Unhealthy").
 
 * Create auth factory
 
-* Show different AQI measurements
-
 * Show time of observation for AQI
 
 * Show label/rating (Good, Moderate, etc)
