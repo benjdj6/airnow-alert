@@ -26,4 +26,6 @@ Notifies user via email or text message about AQI if >150 (aka "Unhealthy").
 
 * Show label/rating (Good, Moderate, etc)
 
+* Add color to rating to indicate quality
+
 * Add invalid zip code message
