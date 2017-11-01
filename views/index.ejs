@@ -23,7 +23,7 @@
     </div>
     <div ng-show="aqi" ng-repeat="measurement in aqi">
       <div class="row">
-        {{measurement.ParameterName}}: {{measurement.AQI}}
+        {{measurement.ParameterName}}: {{measurement.AQI}} - {{measurement.Category.Name}}
       </div>
     </div>
   </body>
