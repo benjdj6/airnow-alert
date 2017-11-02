@@ -23,7 +23,9 @@ router.get('/aqi/:zip', function(req, res, next) {
     if(err) {
       res.json(response.statusCode);
     }
-    res.json(JSON.parse(body));
+    else {
+      res.json(JSON.parse(body));
+    }
    });
 });
 
