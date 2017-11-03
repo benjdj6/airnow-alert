@@ -18,7 +18,7 @@
     <p>Welcome to <%= title %></p>
     <div class="row">
       <label>ZIP Code</label>
-      <input type="text" ng-model="zip"/>
+      <input type="text" ng-model="zip" maxlength="5" />
       <button type="submit" ng-click="getAQI();" class="btn btn-primary">Submit</button>
     </div>
     <div ng-show="aqi" ng-repeat="measurement in aqi">
