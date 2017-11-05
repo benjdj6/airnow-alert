@@ -6,3 +6,33 @@ body {
 a {
   color: #00B7FF;
 }
+
+.Good {
+  background-color: #21af40;
+  color: #f7f7f7;
+}
+
+.Moderate {
+  background-color: #fffc60;
+  color: #3a3a3a;
+}
+
+.USG {
+  background-color: #ffba60;
+  color: #3a3a3a;
+}
+
+.Unhealthy {
+  background-color: #db3232;
+  color: #f7f7f7;
+}
+
+.Very {
+  background-color: #c677b9;
+  color: #3a3a3a;
+}
+
+.Hazardous {
+  background-color: #72001e;
+  color: #f7f7f7;
+}
