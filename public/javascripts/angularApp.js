@@ -21,6 +21,9 @@ app.controller('MainCtrl', [
           $scope.error = "No data found :(";
         }
         $scope.aqi = data.data;
+        for(var i = 0; i < (data.data).length; i++) {
+          (data.data[i]).quality = classes[(data.data[i]).Category.Number];
+        }
       });
     };
     
