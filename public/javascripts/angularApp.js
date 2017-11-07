@@ -12,7 +12,7 @@ app.controller('MainCtrl', [
       "unhealthy",
       "very-unhealthy",
       "hazardous",
-      "unavailble"
+      "unavailable"
     ];
 
     $scope.getAQI = function() {
