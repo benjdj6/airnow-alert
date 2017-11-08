@@ -7,32 +7,32 @@ a {
   color: #00B7FF;
 }
 
-.Good {
+.good {
   background-color: #21af40;
   color: #f7f7f7;
 }
 
-.Moderate {
+.moderate {
   background-color: #fffc60;
   color: #3a3a3a;
 }
 
-.USG {
+.usg {
   background-color: #ffba60;
   color: #3a3a3a;
 }
 
-.Unhealthy {
+.unhealthy {
   background-color: #db3232;
   color: #f7f7f7;
 }
 
-.Very {
+.very-unhealthy {
   background-color: #c677b9;
   color: #3a3a3a;
 }
 
-.Hazardous {
+.hazardous {
   background-color: #72001e;
   color: #f7f7f7;
 }
