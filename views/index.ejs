@@ -22,7 +22,7 @@
       <button type="submit" ng-click="getAQI();" class="btn btn-primary">Submit</button>
     </div>
     <div ng-show="aqi" ng-repeat="measurement in aqi">
-      <div class="row">
+      <div class="row {{measurement.quality}}">
         {{measurement.ParameterName}}: {{measurement.AQI}} - {{measurement.Category.Name}}
       </div>
     </div>
