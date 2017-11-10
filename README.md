@@ -23,3 +23,7 @@ Notifies user via email or text message about AQI if >150 (aka "Unhealthy").
 * Create auth factory
 
 * Show time of observation for AQI
+
+* Convert hour observed to 24hr time
+
+* Show timezone with hour observed
