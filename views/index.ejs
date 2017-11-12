@@ -21,6 +21,9 @@
       <input type="text" ng-model="zip" maxlength="5" />
       <button type="submit" ng-click="getAQI();" class="btn btn-primary">Submit</button>
     </div>
+    <div ng-show="aqi" class="row">
+      Location: {{aqi[0].ReportingArea}}
+    </div>
     <div ng-show="aqi" ng-repeat="measurement in aqi">
       <div class="row {{measurement.quality}}">
         {{measurement.ParameterName}}: {{measurement.AQI}} - {{measurement.Category.Name}}
