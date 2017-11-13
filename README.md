@@ -29,3 +29,5 @@ Notifies user via email or text message about AQI if >150 (aka "Unhealthy").
 * Show timezone with hour observed
 
 * Register for twilio api key
+
+* Create dedicated AQI report page
