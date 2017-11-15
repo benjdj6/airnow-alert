@@ -22,8 +22,6 @@ A web tool that allows users to check AQI in a given zip code and subscribe to n
 
 * Create auth factory
 
-* Show time of observation for AQI
-
 * Convert hour observed to 24hr time
 
 * Show timezone with hour observed
