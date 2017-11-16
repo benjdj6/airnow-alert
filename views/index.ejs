@@ -22,7 +22,7 @@
       <button type="submit" ng-click="getAQI();" class="btn btn-primary">Submit</button>
     </div>
     <div ng-show="aqi" class="row">
-      Location: {{aqi[0].ReportingArea}} | Hour Observed: {{aqi[0].HourObserved}}
+      Location: {{aqi[0].ReportingArea}} | Hour Observed: {{aqi[0].HourObserved}} {{aqi[0].LocalTimeZone}}
     </div>
     <div ng-show="aqi" ng-repeat="measurement in aqi">
       <div class="row {{measurement.quality}}">
