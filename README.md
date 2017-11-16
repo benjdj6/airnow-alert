@@ -24,8 +24,6 @@ A web tool that allows users to check AQI in a given zip code and subscribe to n
 
 * Convert hour observed to 24hr time
 
-* Show timezone with hour observed
-
 * Register for twilio api key
 
 * Create dedicated AQI report page
