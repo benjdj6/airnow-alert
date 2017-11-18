@@ -24,6 +24,16 @@ app.controller('MainCtrl', [
         for(var i = 0; i < (data.data).length; i++) {
           (data.data[i]).quality = classes[((data.data[i]).Category.Number) - 1];
         }
+        let timeOfDay = "AM";
+        let time = $scope.aqi[0].HourObserved;
+        if($scope.aqi[0].HourObserved >= 12) {
+          time = time - 12;
+          timeOfDay = "PM";
+        }
+        if(time == 0) {
+          time = 12;
+        }
+        $scope.aqi[0].time = time + timeOfDay;
       });
     };
     
