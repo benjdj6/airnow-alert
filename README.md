@@ -22,8 +22,6 @@ A web tool that allows users to check AQI in a given zip code and subscribe to n
 
 * Create auth factory
 
-* Convert hour observed to 12hr time
-
 * Register for twilio api key
 
 * Create dedicated AQI report page
