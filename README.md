@@ -18,6 +18,8 @@ A web tool that allows users to check AQI in a given zip code and subscribe to n
 
 * Optimize API call timing to avoid getting stale data
 
+* Cache most recent AQI data to avoid duplicate calls
+
 * Connect MongoDB
 
 * Create auth factory
