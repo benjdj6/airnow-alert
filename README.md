@@ -28,6 +28,6 @@ A web tool that allows users to check AQI in a given zip code and subscribe to n
 
 * Create dedicated AQI report page
 
-* Make AQI report pretty
+* Make AQI report page pretty
 
 * Add AQI map (if available)
