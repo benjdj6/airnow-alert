@@ -24,8 +24,6 @@ A web tool that allows users to check AQI in a given zip code and subscribe to n
 
 * Create auth factory
 
-* Register for twilio api key
-
 * Create dedicated AQI report page
 
 * Make AQI report page pretty
