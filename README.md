@@ -29,3 +29,7 @@ A web tool that allows users to check AQI in a given zip code and subscribe to n
 * Make AQI report page pretty
 
 * Add AQI map (if available)
+
+* Add Twilio modules
+
+* Configure Twilio client
