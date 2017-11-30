@@ -35,5 +35,3 @@ A web tool that allows users to check AQI in a given zip code and subscribe to n
 * Require text confirmation on sign up
 
 * Design store for all zip codes to be checked
-
-* Complete twilio tutorial
