@@ -30,8 +30,6 @@ A web tool that allows users to check AQI in a given zip code and subscribe to n
 
 * Add AQI map (if available)
 
-* Configure Twilio client
-
 * Require text confirmation on sign up
 
 * Design store for all zip codes to be checked
