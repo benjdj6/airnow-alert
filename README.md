@@ -36,4 +36,4 @@ A web tool that allows users to check AQI in a given zip code and subscribe to n
 
 * Create schedule for checking aqi
 
-* Figure out how to use KML with google maps
+* Sign up for KML Layer API key
