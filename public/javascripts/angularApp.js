@@ -1,4 +1,20 @@
-let app = angular.module('AirNow-Alert', []);
+let app = angular.module('AirNow-Alert', ['ui.router']);
+
+app.config([
+'$stateProvider',
+'$urlRouterProvider',
+function($stateProvider, $urlRouterProvider) {
+  $stateProvider
+    //Home state
+    .state('home', {
+      url: '/home',
+      templateUrl: '/home.html',
+      controller: 'MainCtrl'
+    });
+
+  //if no known state go home
+  $urlRouterProvider.otherwise('home');
+}]);
 
 app.controller('MainCtrl', [
   '$scope', 
