@@ -10,6 +10,11 @@ function($stateProvider, $urlRouterProvider) {
       url: '/home',
       templateUrl: '/home.html',
       controller: 'MainCtrl'
+    })
+    .state('report', {
+      url: '/report',
+      templateUrl: '/report.html',
+      controller: 'ReportCtrl'
     });
 
   //if no known state go home
