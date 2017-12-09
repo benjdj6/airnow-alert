@@ -11,6 +11,7 @@ function($stateProvider, $urlRouterProvider) {
       templateUrl: '/home.html',
       controller: 'MainCtrl'
     })
+    //State for report page
     .state('report', {
       url: '/report',
       templateUrl: '/report.html',
