@@ -27,6 +27,7 @@ app.controller('MainCtrl', [
   '$http',
   function($scope, $http){
 
+    //Classes to be assigned based on AQI
     let classes = [
       "good",
       "moderate",
@@ -37,6 +38,7 @@ app.controller('MainCtrl', [
       "unavailable"
     ];
 
+    //Retrieves AQI data and formats it to be ready for the report view
     $scope.getAQI = function() {
       return $http.get('/aqi/' + $scope.zip).then(function(data) {
         if (!data.data[0]) {
