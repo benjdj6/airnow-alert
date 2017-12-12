@@ -16,7 +16,7 @@ A web tool that allows users to check AQI in a given zip code and subscribe to n
 
 * Add text alerts
 
-* Optimize API call timing to avoid getting stale data
+* Optimize API call timing to avoid getting stale data without hitting the API too often
 
 * Cache most recent AQI data to avoid duplicate calls
 
