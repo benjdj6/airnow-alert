@@ -4,8 +4,6 @@ A web tool that allows users to check AQI in a given zip code and subscribe to n
 
 ### ToDo
 
-* Send notification emails to test account for 94301
-
 * Enable account creation
 
 * Create user model
