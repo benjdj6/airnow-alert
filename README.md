@@ -1,6 +1,6 @@
 # AirNow Alert
 
-A web tool that allows users to check AQI in a given zip code and subscribe to notifications via email or text message about AQI if >150 ("Unhealthy").
+A web app that allows users to check AQI in a given zip code and subscribe to notifications via email or text message about AQI if >150 ("Unhealthy").
 
 ### ToDo
 
