@@ -3,7 +3,14 @@
   <head>
     <title>Under Construction</title>
   </head>
-  <body>
-    Under Construction
+  <body ng-app="AirNow-Alert" ng-controller="ReportCtrl">
+    <div ng-show="aqi" class="row">
+      Location: {{aqi[0].ReportingArea}} | Hour Observed: {{aqi[0].time}} {{aqi[0].LocalTimeZone}}
+    </div>
+    <div ng-show="aqi" ng-repeat="measurement in aqi">
+      <div class="row {{measurement.quality}}">
+        {{measurement.ParameterName}}: {{measurement.AQI}} - {{measurement.Category.Name}}
+      </div>
+    </div>
   </body>
 </html>
