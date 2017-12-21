@@ -29,3 +29,5 @@ A web app that allows users to check AQI in a given zip code and subscribe to no
 * Design store for all zip codes to be checked
 
 * Create schedule for checking aqi
+
+* Pass AQI to ReportCtrl
