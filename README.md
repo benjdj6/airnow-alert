@@ -31,3 +31,7 @@ A web app that allows users to check AQI in a given zip code and subscribe to no
 * Create schedule for checking aqi
 
 * Pass AQI to ReportCtrl
+
+* Add resolve function to ReportCtrl
+
+* Implement ReportCtrl
