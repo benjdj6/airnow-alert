@@ -22,6 +22,12 @@ function($stateProvider, $urlRouterProvider) {
   $urlRouterProvider.otherwise('home');
 }]);
 
+app.controller('ReportCtrl', [
+  '$scope',
+  funtion($scope) {
+    //handle the AQI report data
+}]);
+
 app.controller('MainCtrl', [
   '$scope', 
   '$http',
