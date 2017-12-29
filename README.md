@@ -6,8 +6,6 @@ A web app that allows users to check AQI in a given zip code and subscribe to no
 
 * Enable account creation
 
-* Create user model
-
 * Add email alerts
 
 * Add text alerts
