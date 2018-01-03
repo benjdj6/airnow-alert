@@ -35,5 +35,3 @@ A web app that allows users to check AQI in a given zip code and subscribe to no
 * Implement ReportCtrl
 
 * Connect zip codes to subscribed users
-
-* Add subscribed zip codes property to User model
