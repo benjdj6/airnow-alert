@@ -42,6 +42,4 @@ A web app that allows users to check AQI in a given zip code and subscribe to no
 
 * Create registration page
 
-* Create registration endpoint
-
 * Create login endpoint
