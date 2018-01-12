@@ -6,11 +6,14 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var mongoose = require('mongoose');
+require('./models/Users');
 
 var index = require('./routes/index');
 var users = require('./routes/users');
 
 var passport = require('passport');
+
+mongoose.connect('mongodb://localhost/airnow-alert');
 
 var app = express();
 
