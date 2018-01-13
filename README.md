@@ -14,8 +14,6 @@ A web app that allows users to check AQI in a given zip code and subscribe to no
 
 * Cache most recent AQI data to avoid duplicate calls
 
-* Connect MongoDB
-
 * Create auth factory
 
 * Create dedicated AQI report page
