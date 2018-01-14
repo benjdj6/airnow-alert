@@ -34,4 +34,8 @@ UserSchema.methods.generateJWT = function() {
   }, process.env.SECRET);
 };
 
+UserSchema.methods.setZip = function(zip) {
+  this.zip = zip;
+};
+
 mongoose.model('User', UserSchema);
