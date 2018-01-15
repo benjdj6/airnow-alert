@@ -32,8 +32,6 @@ A web app that allows users to check AQI in a given zip code and subscribe to no
 
 * Implement ReportCtrl
 
-* Connect zip codes to subscribed users
-
 * Create nav bar
 
 * Create login page
