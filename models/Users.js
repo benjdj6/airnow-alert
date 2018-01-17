@@ -28,9 +28,9 @@ UserSchema.methods.generateJWT = function() {
   exp.setDate(today.getDate() + 90);
 
   return jwt.sign({
-      _id: this._id,
-      username: this.username,
-      exp: parseInt(exp.getTime() / 1000),
+    _id: this._id,
+    username: this.username,
+    exp: parseInt(exp.getTime() / 1000),
   }, process.env.SECRET);
 };
 
