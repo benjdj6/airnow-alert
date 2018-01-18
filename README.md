@@ -32,7 +32,9 @@ A web app that allows users to check AQI in a given zip code and subscribe to no
 
 * Implement ReportCtrl
 
-* Create nav bar
+* Add Login button
+
+* Add Logout button
 
 * Create login page
 
