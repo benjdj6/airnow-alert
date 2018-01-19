@@ -36,6 +36,8 @@ A web app that allows users to check AQI in a given zip code and subscribe to no
 
 * Add Logout button
 
+* Add login/logout button logic
+
 * Create login page
 
 * Create registration page
