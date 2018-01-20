@@ -16,6 +16,14 @@
   <body ng-app="AirNow-Alert" ng-controller="MainCtrl">
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
+    <nav class="navbar">
+      <ul class="nav navbar-nav">
+        <li><a>Home</a></li>
+        <li><a>Log Out</a></li>
+        <li><a>Log In</a></li>
+        <li><a>Register</a></li>
+      </ul>
+    </nav>
     <div class="row">
       <label>ZIP Code</label>
       <input type="text" ng-model="zip" maxlength="5" />
